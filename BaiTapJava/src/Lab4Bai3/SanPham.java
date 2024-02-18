@@ -1,4 +1,4 @@
-package Lab4Bai2;
+package Lab4Bai3;
 
 import java.util.Scanner;
 
@@ -11,6 +11,10 @@ public class SanPham {
         this.tenSp = tenSp;
         this.donGia = donGia;
         this.giamGia = giamGia;
+    }
+    
+    public SanPham(String tenSp, double donGia) {
+        this(tenSp, donGia, 0);
     }
     
     public SanPham() {
